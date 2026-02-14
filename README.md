@@ -281,14 +281,6 @@ pneumonia_project/
 
 ---
 
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-**Dataset License**: The Chest X-Ray dataset is available under Kaggle's terms of use. Please refer to the [dataset page](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia) for details.
-
----
-
 ## Author
 
 **Nirup Nandish**  
