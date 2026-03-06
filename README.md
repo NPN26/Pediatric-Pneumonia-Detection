@@ -204,13 +204,20 @@ model.eval()
 pneumonia_project/
 ├── README.md                    # Project documentation
 ├── requirements.txt             # Python dependencies
+├── runtime.txt                  # Python runtime for Streamlit Cloud
+├── Dockerfile                   # Docker image definition
+├── .dockerignore                # Docker build context exclusions
+├── app.py                       # Streamlit web app
+├── model_def.py                 # Model + inference utilities
+├── gradcam.py                   # Grad-CAM generation utilities
+├── .streamlit/
+│   └── config.toml              # Streamlit server configuration
 ├── model.ipynb                  # Main Jupyter notebook
 ├── best_model.pth              # Trained model weights
-├── chest_xray/                 # Dataset (download separately)
-│   ├── train/
-│   ├── val/
-│   └── test/
-└── update_gradcam_v3.py        # Grad-CAM utility script
+└── chest_xray/                 # Dataset (download separately)
+    ├── train/
+    ├── val/
+    └── test/
 ```
 
 ---
