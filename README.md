@@ -5,6 +5,7 @@ Implementation and evaluation of a lightweight convolutional neural network arch
 ![Python](https://img.shields.io/badge/python-3.8+-blue.svg)
 ![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-ee4c2c.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://pediatric-pneumonia-detection.streamlit.app/)
 
 ---
 
@@ -18,6 +19,7 @@ This project implements a **lightweight CNN architecture** originally designed f
 - [x] **~2.07M parameters** (50% reduction via Ghost Convolutions)
 - [x] Balanced detection across bacterial and viral pneumonia subtypes
 - [x] Comprehensive **Grad-CAM interpretability analysis**
+- [x] **Live demo** deployed on [Streamlit Cloud](https://pediatric-pneumonia-detection.streamlit.app/)
 
 ---
 
@@ -140,6 +142,14 @@ Comprehensive Grad-CAM study reveals model attention patterns:
 - Suggests possible overfitting to imaging protocols
 
 **Clinical Implications**: Model shows mostly appropriate behavior but requires multi-institutional validation before deployment.
+
+---
+
+## Live Demo
+
+The app is deployed and accessible at: **https://pediatric-pneumonia-detection.streamlit.app/**
+
+Upload a chest X-ray image to get an instant binary prediction (Normal / Pneumonia) along with a Grad-CAM heatmap highlighting the regions the model focused on.
 
 ---
 
